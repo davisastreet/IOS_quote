@@ -11,9 +11,9 @@ class ViewController: UIViewController
 {
     
     // ui elements
-    @IBOutlet weak var header: UILabel!
-    @IBOutlet weak var quote: UILabel!
-    @IBOutlet weak var newquote: UIButton!
+    @IBOutlet weak var Header: UILabel!
+    @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var Newquote: UIButton!
     // quote array
     let quotes = ["we have nothing to fear but fear itself", "I think, therefore I am", "Practice makes perfect", "Time is money"]
     
@@ -27,7 +27,7 @@ class ViewController: UIViewController
     @IBAction func quotePressed(_ sender: UIButton)
     {
         let rand = Int.random(in: 0...(quotes.count - 1))
-        quote.text = quotes[rand]
+        Label.text = quotes[rand]
     }
     
 
