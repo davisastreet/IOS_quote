@@ -14,6 +14,7 @@ class ViewController: UIViewController
     @IBOutlet weak var Header: UILabel!
     @IBOutlet weak var Label: UILabel!
     @IBOutlet weak var Newquote: UIButton!
+    
     // quote array
     let quotes = ["we have nothing to fear but fear itself", "I think, therefore I am", "Practice makes perfect", "Time is money"]
     
